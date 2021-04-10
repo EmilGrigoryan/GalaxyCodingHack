@@ -1,0 +1,26 @@
+{
+ "name": "Main Controller",
+  "Numbers of sub controllers": 3, // main_controller.get_number_of_controllers()
+  "General power": 5, // main_controller.get_general_power()
+  "Mode": "mode", // main_controller.mode
+  "controllers": [
+    {
+      "name": "Lab PC controller",
+      "power": 10, // light.power
+      "status": "1 or 2 or 3", // light.status
+      "number of elements": 1 // light.get_number_of_elements()
+    },
+        {
+      "name": "Ventil controller",
+      "power": 6, // ventils.power
+      "status": "1 or 2 or 3", // ventils.status
+      "number of elements": 1 // ventils.get_number_of_elements()
+    },
+        {
+      "name": "Light controller",
+      "power": 4, // pc.power
+      "status": "1 or 2 or 3", // pc.status
+      "number of elements": 1 // pc.get_number_of_elements()
+    }
+  ]
+}
