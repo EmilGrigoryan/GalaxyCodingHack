@@ -1,0 +1,17 @@
+@import 'src/_variables';
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 50px;
+}
+
+.width {
+  width: 315px;
+}
+
+.text {
+  color: $white !important;
+  background: $dark-grey !important;
+}

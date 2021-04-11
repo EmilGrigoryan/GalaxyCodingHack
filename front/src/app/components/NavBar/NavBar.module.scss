@@ -1,0 +1,66 @@
+@import 'src/_variables';
+
+.root {
+  height: 100px;
+  background-color: $dark-grey;
+  width: 100%;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+  margin-top: 16px;
+  margin-left: 32px;
+}
+
+.appbar {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: space-evenly;
+  margin-top: 24px;
+}
+
+.appbar2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 200px;
+  margin-top: 24px;
+}
+
+.appbarLink {
+  color: $white;
+  font-family: IBM Plex Sans, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.375px;
+  text-decoration-line: underline;
+}
+
+.appbarLink2 {
+  color: $white;
+  font-family: IBM Plex Sans, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.375px;
+}
+
+.text {
+  margin-top: 16px;
+  color: $white;
+  font-family: IBM Plex Sans, serif;
+  font-style: normal;
+  text-align: center;
+}
